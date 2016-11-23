@@ -7,17 +7,18 @@ It checks for external assets, downloads them and replaces their respective path
 Requirements :
 BeautifulSoup - To parse the html
 
-== Example
+## Example
 
 Let's say you have to download the webpage @ http://imdb.com
-First import WebPageDownloader module into your script and create an instance.
 
+First import WebPageDownloader module into your script and create an instance.
+```
 from webpagedownloader import WebPageDownloader
 wpd = WebPageDownloader(url, data_dir)
-
+```
 Now, call the save_all_assets method from WebPageDownloader
-
+```
 url = "http://imdb.com"
 data_dir = "/path/to/the/download/dir/"
 wpd.save_all_assets()
-
+```
