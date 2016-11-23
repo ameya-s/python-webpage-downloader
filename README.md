@@ -4,9 +4,7 @@ Simple python(3.x) program to download html source along with external assets (j
 This program is designed to download the source html of a webpage along with external assets(js,css,images).
 It checks for external assets, downloads them and replaces their respective paths in downloaded source html.
 
-Requirements :
-
-BeautifulSoup - To parse the html
+**Requirements** : BeautifulSoup (to parse the html)
 
 ## Example
 
