@@ -5,6 +5,7 @@ This program is designed to download the source html of a webpage along with ext
 It checks for external assets, downloads them and replaces their respective paths in downloaded source html.
 
 Requirements :
+
 BeautifulSoup - To parse the html
 
 ## Example
